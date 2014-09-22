@@ -30,7 +30,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 /**
- * Main activity. new test, tralalala
+ * Main activity.
  */
 public class HelloWorldActivity extends Activity {
 
