@@ -31,7 +31,7 @@ import android.widget.TextView;
 
 /**
  * Main activity.
- */
+ IK MAG OOK IETS DOEN*/
 public class HelloWorldActivity extends Activity {
 
   private TextView _statusTextView;
