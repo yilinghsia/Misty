@@ -30,8 +30,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 /**
- * Main activity.
- IK MAG OOK IETS DOEN*/
+ * Main activity. TETSTETSTE
+ */
 public class HelloWorldActivity extends Activity {
 
   private TextView _statusTextView;
