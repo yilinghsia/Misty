@@ -80,7 +80,7 @@ public class MistyActivity extends Activity {
 
   }
   
-  @SuppressWarnings("deprecation")
+  
 private void createCards() {
       mCards = new ArrayList<Card>();
 
@@ -121,7 +121,8 @@ private void createCards() {
           return mCards.get(position);
       }
 
-      @Override
+      @SuppressWarnings("deprecation")
+	@Override
       public int getViewTypeCount() {
           return Card.getViewTypeCount();
       }
