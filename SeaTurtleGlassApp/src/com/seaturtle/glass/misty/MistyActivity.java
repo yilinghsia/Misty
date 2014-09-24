@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.mobilevangelist.glass.helloworld;
+package com.seaturtle.glass.misty;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,6 +22,7 @@ import java.util.List;
 import com.google.android.glass.app.Card;
 import com.google.android.glass.widget.CardScrollAdapter;
 import com.google.android.glass.widget.CardScrollView;
+import com.mobilevangelist.glass.helloworld.R;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -32,7 +33,7 @@ import android.widget.TextView;
 /**
  * Main activity
  */
-public class HelloWorldActivity extends Activity {
+public class MistyActivity extends Activity {
 
   private TextView _statusTextView;
   private List<Card> mCards;
