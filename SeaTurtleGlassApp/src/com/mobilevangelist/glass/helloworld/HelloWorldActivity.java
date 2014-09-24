@@ -79,7 +79,8 @@ public class HelloWorldActivity extends Activity {
 
   }
   
-  private void createCards() {
+  @SuppressWarnings("deprecation")
+private void createCards() {
       mCards = new ArrayList<Card>();
 
       Card card;
