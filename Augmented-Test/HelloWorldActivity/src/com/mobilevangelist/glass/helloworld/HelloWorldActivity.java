@@ -29,7 +29,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-;/**
+
+/**
  * Main activity.
  */
 public class HelloWorldActivity extends Activity {
