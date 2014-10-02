@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Inspector Gadget</string>
+    <string name="empty_string"></string>
+    <string name="touchpad_touched">Touchpad touched</string>
+    <string name="glass_voice_trigger">gogo Gadget</string>
+    
+</resources>
