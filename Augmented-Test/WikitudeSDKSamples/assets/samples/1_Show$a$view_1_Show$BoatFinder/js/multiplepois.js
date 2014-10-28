@@ -61,9 +61,9 @@ var World = {
 		var id = 1;
 		var latitude = 51.9176436;
 		var longitude = 4.4823579;
-		var description = "Een lange beschrijving"
-		var altitude = "100.0"
-		var name = "Schipnaam Awesome"	
+		var description = "Een lange beschrijving";
+		var altitude = "100.0";
+		var name = "Maritiem Museum";	
 		
 		var ShipData = [];
 
