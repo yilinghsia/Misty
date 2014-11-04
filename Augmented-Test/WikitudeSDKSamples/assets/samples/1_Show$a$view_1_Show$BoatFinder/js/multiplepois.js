@@ -1,3 +1,4 @@
+
 // implementation of AR-Experience (aka "World")
 var World = {
 	// true once data was fetched
@@ -58,6 +59,7 @@ var World = {
 	// request POI data
 	requestDataFromLocal: function requestDataFromLocalFn(centerPointLatitude, centerPointLongitude) {
 
+		/*
 		var id = 1;
 		var latitude = 51.9176436;
 		var longitude = 4.4823579;
@@ -74,7 +76,85 @@ var World = {
 				"description": (description),
 				"altitude": altitude,
 				"name": (name)
+			}); */
+
+			var ShipData = [];
+
+//testdata havenbedrijf			
+
+			ShipData.push({
+				"id": 1,
+				"longitude": (4.526599),
+				"latitude": (51.911090),
+				"description": ("8 knots - 20 degrees NW"),
+				"altitude": "100.0",
+				"name": ("Rocket")
 			});
+			
+			ShipData.push({
+				"id": 2,
+				"longitude": (4.530135),
+				"latitude": (51.909978),
+				"description": ("7 knots - 2 degrees NE"),
+				"altitude": "100.0",
+				"name": ("Queen Victoria")
+			});
+			
+			ShipData.push({
+				"id": 3,
+				"longitude": (4.524827),
+				"latitude": (51.908620),
+				"description": ("8 knots - 10 degrees NW"),
+				"altitude": "100.0",
+				"name": ("Seaturtle")
+			});
+			
+			ShipData.push({
+				"id": 4,
+				"longitude": (4.528140),
+				"latitude": (51.908080),
+				"description": ("7 knots - 5 degrees NE"),
+				"altitude": "100.0",
+				"name": ("Tucker")
+			});
+
+	/*
+			ShipData.push({
+				"id": 1,
+				"longitude": (4.482340),
+				"latitude": (51.917695),
+				"description": ("Dit is schip 1"),
+				"altitude": "100.0",
+				"name": ("Rocket")
+			});
+			
+			ShipData.push({
+				"id": 2,
+				"longitude": (4.485580),
+				"latitude": (51.918441),
+				"description": ("Dit is schip 2"),
+				"altitude": "100.0",
+				"name": ("Queen Victoria")
+			});
+			
+			ShipData.push({
+				"id": 3,
+				"longitude": (4.483428),
+				"latitude": (51.916111),
+				"description": ("Dit is schip 3"),
+				"altitude": "100.0",
+				"name": ("Seaturtle")
+			});
+			
+			ShipData.push({
+				"id": 4,
+				"longitude": (4.486911),
+				"latitude": (51.916871),
+				"description": ("Dit is schip 4"),
+				"altitude": "100.0",
+				"name": ("Carl")
+			});
+*/
 		
 		World.loadPoisFromJsonData(ShipData);
 	}
